@@ -5,6 +5,13 @@ Bu repo [Kodluyoruz](https://kodluyoruz.org) Front-End Eğitiminde oluşturduğu
 
 -----------------------------------------------------
 
+
+
+![firstrepo](https://imgyukle.com/f/2022/10/10/nMl1AP.png)
+
+
+
+
 ## Installation 
 
 Öncelikle projeyi clonelayın. (Buraya sizin reponuzdan aldığınız link gelecek.)
@@ -35,7 +42,6 @@ Pull requestler kabul edilir. Büyük değişikler için, lütfen önce neyi de�
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
 
 
 
