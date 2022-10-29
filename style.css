@@ -1,0 +1,229 @@
+body
+{font-size: 14px;
+font-family: arial,sans-serif;
+color: #bdc1c6; 
+margin: 9px;
+  }
+
+
+          .header {
+            
+            margin: 10px;
+            overflow: hidden;
+            margin-right: 16px;
+            font-family: arial,sans-serif;
+            font-size: 13px;
+            text-align: center;
+            list-style: none;
+          }
+
+          .headerli {
+            padding: 5px;
+            margin: -12px 4px;
+         
+           }
+            .headerli-nav  {
+
+            display: inline-flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 4px;
+            float: right;
+        
+           
+            
+            }
+          .profile-pic {
+
+            border-radius: 50px;
+            width: 35px;
+            height: 37px;
+            padding: 6px;
+            margin: -5px;
+
+
+          }
+
+
+            .headerli span {
+              cursor: pointer;
+            }
+
+
+
+    a:visited { 
+      color: black;
+      
+    }
+
+    a:link {
+      color: black;
+      text-decoration: none;
+    }
+
+    .headerli a:hover {
+      text-decoration: underline;
+
+    }
+
+.pic-headerli {
+  text-align: center;
+  padding-top: 109px;
+  height: 92px;
+  width: 272px; 
+  padding-top: 329px;
+  height: 92px;
+  width: 272px;
+  position: absolute;
+  margin: 0;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+}
+ 
+
+.container {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+.search-area {
+ 
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 235px;
+  width: 500px;
+  border-radius: 48px; 
+}
+
+.search-area:hover {
+box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+    .search {
+      flex: 1;
+      display: flex;
+      padding: 5px 8px 0 16px;
+      padding-left: 14px;
+    }
+
+    .search-img {
+      display: flex;
+      align-items: center;
+      padding-right: 13px;
+      margin-top: 5px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .search-img1 {
+      color: #9aa0a6;
+      height: 20px;
+      width: 20px;
+      margin-top: 0px;
+      display: inline-block;
+      fill: currentColor;
+      line-height: 24px;
+      position: relative;
+      margin: -925px;
+    }
+
+    .voice-search {
+      height: 23px;
+      margin: 0px 446px;
+      padding: 3px;
+
+    }
+
+    input[type="text"] {
+      width: 248%;
+      margin-top: 4px;
+      border-width: 0 !important;
+      font-size: 15px;
+  }
+  input[type="text"]:focus-visible  {
+      outline: -webkit-focus-ring-color none !important;
+ }
+
+  .buttons {
+    margin: 0 600px;
+    padding-top: 18px;
+  }
+
+      .googlesearch {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 4px;
+        color: #5F6368;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+      }
+
+      .feelinglucky {
+        
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 4px;
+        color: #5F6368;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  background-color:  #f2f2f2;
+}
+
+.footerli {
+  float: left;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
+
